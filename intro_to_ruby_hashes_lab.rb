@@ -3,8 +3,11 @@ def new_hash
   the_new_hash = {}
 end
 
-
-def actor
+# Create hash with actor name whose key is a symbol :name and whose value is a string, 'Dwayne The Rock Johnson'" do
+        
+def actor(name)
+  expect(actor[:name]).to eq("Dwayne The Rock Johnson")
+  name_hash
 
 end
 
