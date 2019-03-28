@@ -8,7 +8,7 @@ def actor
   actor = {name: "Dwayne The Rock Johnson"}
 end
 
-# Add empty key-value pair to the monopoly hash
+# Add empty hash to the monopoly hash
 def monopoly
 	monopoly = {railroads: {}}
 end
