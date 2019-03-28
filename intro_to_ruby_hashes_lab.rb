@@ -13,13 +13,7 @@ def monopoly
 	monopoly = {railroads: {}}
 end
 
-#adds a key-value pair to the monopoly hash. The key should be :railroads and the value should be an empty hash" do
-        expect(monopoly[:railroads]).to eq({})
-        expect(monopoly.keys.count).to eq(1)
-        expect(monopoly.values).to match_array([{}])
-      end
-    end
-  end
+# 
 
   describe "adding key-value pairs to the second level of the monopoly hash that we started building in the #monopoly method" do
     describe "#monopoly_with_second_tier" do
